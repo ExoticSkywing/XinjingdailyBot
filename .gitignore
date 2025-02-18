@@ -344,3 +344,7 @@ ASALocalRun/
 healthchecksdb
 
 .config/
+
+./XinjingdailyBot.WebAPI/appsettings.json
+./docker/.env
+./docker/appsettings.template.json

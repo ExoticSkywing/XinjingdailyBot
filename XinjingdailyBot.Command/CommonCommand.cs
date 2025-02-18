@@ -101,7 +101,7 @@ public sealed class CommonCommand(
         {
             sb.AppendLine(msg);
         }
-        sb.AppendLine("Powered by @xinjingdaily");
+        sb.AppendLine("Powered by @nebuluxe");
         await _botClient.SendCommandReply(sb.ToString(), message).ConfigureAwait(false);
     }
 
@@ -118,8 +118,8 @@ public sealed class CommonCommand(
         var variant = BuildInfo.Variant;
         sb.AppendLine($"程序版本: <code>{version}</code>");
         sb.AppendLine($"子版本: <code>{variant}</code>");
-        sb.AppendLine(string.Format("获取开源程序: {0}", _textHelperService.HtmlLink("https://github.com/chr233/XinjingdailyBot/", "XinjingdailyBot")));
-        sb.AppendLine(string.Format("爱发电: {0}", _textHelperService.HtmlLink("https://afdian.net/@ylnflp", "@ylnflp")));
+        sb.AppendLine(string.Format("获取开源程序: {0}", _textHelperService.HtmlLink("https://lmyz.1yo.cc", "浪漫宇宙投稿")));
+        sb.AppendLine(string.Format("爱发电: {0}", _textHelperService.HtmlLink("https://shop.1yo.cc", "@太空人的魔法棒")));
         await _botClient.SendCommandReply(sb.ToString(), message, parsemode: ParseMode.Html).ConfigureAwait(false);
     }
 

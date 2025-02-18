@@ -23,7 +23,7 @@ public sealed class CommonControllerCommonController(
         return Ok(new GenericResponse {
             Code = HttpStatusCode.OK,
             Success = true,
-            Message = "机器人启动完成, 请我喝杯快乐水: https://afdian.net/a/chr233"
+            Message = "机器人启动完成, 请我喝杯快乐水: https://shop.1yo.cc"
         });
     }
 
